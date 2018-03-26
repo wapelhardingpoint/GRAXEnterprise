@@ -1,1 +1,1 @@
-web node grax.js
+web web: node --max-old-space-size=384 ./GRAX/red.js --settings ./GRAX/HardingPoint/HardingPointSettings.js
