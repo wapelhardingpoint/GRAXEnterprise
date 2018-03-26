@@ -1,0 +1,31 @@
+{
+  "name": "GRAX Enterprise by Harding Point",
+  "description": "",
+  "repository": "https://github.com/HardingPoint/GRAXEnterprise.git",
+  "website": "https://grax.io",
+  "keywords": ["salesforce","graphdb","neo4j"],
+  "addons": [
+    {
+      "plan": "graphenedb:dev-free",
+      "as": "GraphConnect"
+    },
+    {
+      "plan": "engagementgraph:hpt-test",
+      "as": "ENGAGEMENTGRAPH"
+    }
+  ],
+  "env": {
+    "ENGAGEMENTMANAGER_READONLYUSER": {
+      "description": "Readonly User Name",
+      "value": "readonly"
+    },
+    "ENGAGEMENTMANAGER_READONLYPWD": {
+      "description": "Readonly User Name",
+      "value": "HardingPoint!"
+    },
+    "ENGAGEMENTMANAGER_ENVIRONMENT":{
+      "description": "If you run multiple environments you can group servers into Production, QA, Development (or any name of your choosing)",
+      "value": "Production"
+    }
+  }
+}
