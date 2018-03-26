@@ -1,0 +1,6 @@
+[submodule "GRAX"]
+	path = GRAX
+	url = https://github.com/HardingPoint/GRAX.git
+[submodule "GRAXODataProxy"]
+	path = GRAXODataProxy
+	url = https://github.com/HardingPoint/GRAXODataProxy
