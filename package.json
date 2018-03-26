@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "git submodule update && grunt build",
+    "clean" : "rm -rf ./GRAX && rm -rf ./GRAXODataProxy",
+    "debugging" : "npm run clean && cp -fR ../GRAXODataProxy/ ./GRAXODataProxy/ && cp -fR ../../Heroku/GRAX ./GRAX/",
+    "install" : "npm run clean && git clone https://github.com/HardingPoint/GRAX.git && git clone https://github.com/HardingPoint/GRAXODataProxy",
+    "proxy" : "node ./GRAXOdataProxy/index.js",
     "postinstall" : "cd GRAX && npm install && cd ../ && cd GRAXODataProxy && npm install"
   },
   "author": "",
