@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "git submodule update"
+    "build" : "git submodule update && grunt build",
+    "postinstall" : "cd GRAX && npm install && grunt build && cd ../GRAXODataProxy && npm install"
   },
   "author": "",
   "license": "ISC",
