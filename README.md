@@ -1,4 +1,4 @@
-## The first step to installing GRAX is to deploy your Heroku environment. Once complete this your Salesforce Instance will have to be configured. 
+## The first step to installing GRAX is to deploy your Heroku environment. Once completed your Salesforce Instance will have to be configured. 
 
 ### 1. Deploy GRAX Enterprise Application to Heroku 
 
