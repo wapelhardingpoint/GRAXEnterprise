@@ -10,5 +10,5 @@
  
 ### 2. Salesforce Configuration
 
-# To configure GRAX, please use the following link: <a href="https://github.com/HardingPoint/GRAXForSFDC" target="_new">GRAXForSFDC</a>
+# To configure GRAX Enterprise, please use the following link: <a href="https://github.com/HardingPoint/GRAXForSFDC" target="_new">GRAXForSFDC</a>
 
